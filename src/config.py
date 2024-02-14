@@ -46,8 +46,7 @@ parser.add_argument('--subtask', default=SUBTASK)
 ##################### Flags for loading models #####################################################
 
 load_model = 'None'
-load_model = '../../models/v21_model/train_model_state_dict.pth'
-#load_model = 'train_2024-01-24T11-32-36.335771_regression_scai5/train_model_state_dict.pth' #ProgSG all kernels
+#load_model = ''#path to your downloaded trained model.
 
 
 load_model_class = 'None'
