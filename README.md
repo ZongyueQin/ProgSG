@@ -39,3 +39,9 @@ Most of flags in *config.py* do not need to be changed. Below are some flags you
 - **D**: dimensions of hidden features.
 
 
+If you want to run **CodeT5** with our code, change the values of following flags:
+
+- **disable_gnn**=True (line 18) 
+- **feed_p_to_tf**=False (line 194)
+- **pc_links_ug**=None (line 221)
+- **node_token_interaction**=False (line 225)
