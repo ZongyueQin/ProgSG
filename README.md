@@ -2,9 +2,11 @@
 
 ## Trained Model
 
-Download trained model from [here](https://drive.google.com/drive/folders/1ZsBiIxtMvSSNARVYoWuJ6l0ziEvRWbO6?usp=sharing)
+Download trained model from [here](https://drive.google.com/file/d/1_-dmgzBdcpGkYLUXjsXQ2CL5f9wNDrJa/view?usp=drivesdk)
 
 This model is trained with all kernels using v21 data.
+
+You need to unzip the downloaded .tar file in the *src/logs* folder. 
 
 ## Requirements and Dependencies
 
@@ -20,14 +22,18 @@ pip3 install -r requirements.txt
 
 ## Running the Project
 
-You can run the code with
+After decompressing the trained model, you can run the inference to reproduce our RMSE result via
+```
+python main.py --force_regen True
+```
+
+Notice that you only need to add "--force\_regen True" the first time you run our code to encode the dataset. Later you can simply run via
 ```
 python main.py
 ```
 
 Edit *config.py* to change the code configuration.
 
-When you run the code for the first time, set *force_regen* in *config.py* to True to convert data into pytorch format.
 
 Most of flags in *config.py* do not need to be changed. Below are some flags you might want to change:
 
