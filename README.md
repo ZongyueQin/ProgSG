@@ -1,5 +1,8 @@
 # ProgSG
 
+[![DOI](https://zenodo.org/badge/757747904.svg)](https://zenodo.org/doi/10.5281/zenodo.13323521)
+
+
 ## Trained Model
 
 Download trained model from [here](https://drive.google.com/file/d/1_-dmgzBdcpGkYLUXjsXQ2CL5f9wNDrJa/view?usp=drivesdk)
